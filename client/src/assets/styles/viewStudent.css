@@ -1,0 +1,147 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body, html {
+  overflow-y: auto; 
+}
+
+.title{
+    font-size:26px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.inputGroup {
+  max-width: 398px;
+  height: 46px;
+  width: 100%;
+  color: #F0F0F0;
+}
+
+.input-field{
+  background: #F0F0F0;
+  border-right: none;
+  max-width: calc(100% - 38px);
+  border-radius: 5px;
+}
+.input-field::placeholder{
+  color: #D0D0D0;
+  font-size: 18px;
+}
+.input-txt{
+  color: #D0D0D0;
+  background: #F0F0F0;
+}
+.input-icon{
+  color: #D0D0D0;
+  background: #F0F0F0;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+
+.search-field{
+  margin-top: 45px;
+}
+
+.ml-3{
+  width:146px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  /* max-width: calc(100% - 38px); */
+
+}
+
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  text-align: center;
+}
+
+.custom-table {
+  margin-top: 45px;
+  margin-bottom: 100px;
+}
+
+.custom-table-bordered-outside {
+  border-collapse: collapse;
+  border: 1px solid #D8D8D8; 
+}
+
+.custom-table.table-breathing  th
+{
+  padding: 25px 15px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  white-space: nowrap; 
+}
+
+.custom-table.table-breathing  td
+{
+  padding: 60px 15px ;
+  font-size: 18px;
+  color:#747474;
+  white-space: nowrap; 
+}
+.faCommon{
+  width: 25px;
+  height:25px;
+  vertical-align: auto;
+  margin-right: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #747474;
+}
+.faCommon1{
+  width: 20px;
+  height:20px;
+  vertical-align: auto;
+  margin-right: 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  color: #747474;
+}
+.edit{
+  text-decoration: none;
+  color: #747474;
+  ;
+}
+.hover_delete{
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    div.d-flex {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 10px;
+
+    }
+  
+    .ml-3 {
+      margin-left: 0 !important;
+      margin-top: 10px;
+      width: 280px;
+      height:auto;
+    }
+
+    .title{
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .custom-table.table-breathing th {
+      padding: 15px;
+    }
+    .custom-table.table-breathing td{
+      padding: 20px;
+    }
+  }
+ 

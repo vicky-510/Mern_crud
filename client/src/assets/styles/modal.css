@@ -1,0 +1,120 @@
+* {
+    font-family: 'Outfit', sans-serif;
+  }
+  
+  .modal-dialog {
+    width: 319px; 
+    max-height: 257px; 
+    margin: auto; 
+    padding: 0;
+  }
+  
+  .modal-content {
+    background-color: #717171;
+  }
+  
+  .modal-backdrop {
+    display: none !important;
+  }
+  
+  .modal-header {
+    border-radius: 8px 8px 0 0;
+    border: none;
+  }
+  
+  .modal-footer {
+    border-radius: 0 0 8px 8px;
+    gap: 0;
+    justify-content: center;
+    border: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .modal-body {
+    border-radius: 0;
+    gap: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .modal-body .trash-icon {
+    width: 65px;
+    height: 65px;
+    align-items: center;
+    justify-items: center;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .modal-footer button {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 44px;
+    color: #fff;
+    padding: 0;
+    border-radius: 0px;
+  }
+
+  .custom-button {
+    background-color: #C4C4C4;
+    color: #fff; 
+    border: none; 
+    outline: none; 
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400; 
+    height: 44px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .custom-button:hover,
+  .custom-button:focus,.custom-button:active {
+    background-color: #FFFAFA;
+    color: #000000; 
+    opacity: 0.8; 
+  }
+  .modal-footer button:hover, .modal-footer button:focus,.modal-footer button:active{
+    background-color: #FFFAFA;
+    color: #000000; 
+    opacity: 0.8; 
+  }
+  .custom-button.cancel-btn{
+    border-radius: 0 0 0 4px;
+  }
+  .custom-button.delete-btn{
+    border-radius: 0 0 4px 0;
+    border-left: 4px solid #717171;
+
+
+  }
+
+  
+  /* .cancel-button {
+    background-color: #C4C4C4;
+    border-radius: 0 0 0 8px;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    border-radius: 0 0 8px 0;
+  } 
+  
+  .modal-footer button:hover,
+  .modal-footer button:focus {
+    opacity: 0.8;
+  }
+*/
+
+ 
+  
+  

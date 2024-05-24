@@ -1,0 +1,165 @@
+
+*{
+    font-family: 'Outfit', sans-serif;;
+}
+body, html {
+  overflow-y: auto; 
+}
+
+.arrow{
+    width: 45px;
+    height: 45px;
+    color: #000000; 
+    margin-bottom: 10px;
+}
+
+
+.form-container {
+    width: 100%; 
+  }
+  
+  .form-label {
+    width: auto; 
+    margin-right: 10px; 
+    white-space: nowrap;
+
+  }
+  .form-control.fc-common {
+    flex-grow: 1;
+    border-radius: 0px;
+    border-color: 1px solid #A9A9A9;
+    margin-bottom: 40px;
+
+  }
+ 
+
+  label{
+    font-size: 23px;
+    font-weight: 400;
+    color: #000000;
+  }
+  .inputs-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+  #dob-day{
+    max-width: 55px;
+    text-align: center;
+  }
+
+  #dob-month{
+    max-width: 55px;
+    text-align: center;
+
+  }
+
+  #dob-year{
+    max-width: 65px;
+    text-align: center;
+
+  }
+
+  #about{
+    max-height: 150px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .button_form{
+    border-radius: 30px;
+    width: 188px;
+    height: 50px;
+    font-size: 23px;
+    margin-bottom:30px;
+
+  }
+
+  .dob_css {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.dob_css .form-control {
+    max-width: 60px;
+    margin-right: 10px; 
+}
+
+.dob_css .form-control:last-child {
+    margin-right: 0; 
+}
+
+ 
+  @media (min-width: 768px) {
+    .form-control {
+        flex-grow: 1;
+        max-width: 300px;
+        max-height:58px; 
+      }
+      .space1{
+        margin-right: 24px;
+        margin-left:10px ;
+      }
+
+    
+     #last{
+        margin-left: 40px;
+      }
+      .button_form{
+        border-radius: 30px;
+        width: 188px;
+        height: 50px;
+        font-size: 23px;
+        margin-left: 165px;
+    
+      }
+    
+  }
+
+  @media (min-width: 1000px) {
+
+    .space1{
+        margin-right: 24px;
+        margin-left:10px ;
+      }
+
+    .space2{
+        margin-right: 24px;
+        margin-left:34px ;
+     }
+     .space3{
+        margin-right: 25px;
+        margin-left:65px ;
+     }
+     .space4{
+        margin-right: 25px;
+        margin-left:73px ;
+     }
+     .space5{
+        margin-right: 24px;
+        margin-left:20px ;
+     }
+     .space6{
+        margin-right: 24px;
+        margin-left:60px ;
+     }
+     .space7{
+        margin-right: 24px;
+        margin-left:40px ;
+     }
+  }
+
+  @media (max-width: 575.98px) {
+    .form-control.fc-common {
+      flex-grow: 1;
+      border-radius: 0px;
+      border-color: 1px solid #A9A9A9;
+      margin-bottom: 20px;
+  
+    }
+   
+  
+}
+  
+
