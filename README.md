@@ -1,4 +1,7 @@
 # Student Management System - MERN CRUD Application
+[![Watch the video](https://img.youtube.com/vi/fYuwydkl91A/maxresdefault.jpg)](https://youtu.be/fYuwydkl91A)
+
+
 ## Client Setup:
 To run client use:
 
